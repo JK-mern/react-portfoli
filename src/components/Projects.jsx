@@ -5,7 +5,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 function Projects() {
   return (
-    <div className="max-w-6xl mx-auto mb-14">
+    <div className="max-w-6xl mx-auto mb-14" id="Project">
       <div>
         <h1 className="text-center font-bold text-3xl text-black underline">
           Projects
@@ -45,23 +45,29 @@ function Projects() {
               <p>Judege0</p>
             </div>
           </div>
-          <div className="ml-3 mt-5">
-            <button className="p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
-              <FontAwesomeIcon
-                icon={faGithub}
-                style={{ color: "#f6f4f4" }}
-                size="xl"
-              />
-              <span className="ml-3 text-white">Github</span>
-            </button>
-            <button className="ml-5 p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
-              <FontAwesomeIcon
-                icon={faLink}
-                size="xl"
-                style={{ color: "#ffffff" }}
-              />
-              <span className="ml-3 text-white">Live Demo</span>
-            </button>
+          <div className="ml-2 md:ml-3 mt-5">
+            <a href="https://github.com/JK-mern/mern-AlgoXpert">
+              <button className="p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  style={{ color: "#f6f4f4" }}
+                  size="xl"
+                />
+                <span className="ml-3 text-white">Github</span>
+              </button>
+            </a>
+
+            <a href="https://github.com/JK-mern/mern-AlgoXpert">
+              {" "}
+              <button className="ml-5 p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
+                <FontAwesomeIcon
+                  icon={faLink}
+                  size="xl"
+                  style={{ color: "#ffffff" }}
+                />
+                <span className="ml-3 text-white">Live Demo</span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -98,8 +104,8 @@ function Projects() {
               <p>Firebase</p>
             </div>
           </div>
-          <div className="ml-3 mt-5">
-            <a href="http://">
+          <div className="ml-2 md:ml-3 mt-5">
+            <a href="https://github.com/JK-mern/MERN-realestate">
               <button className="p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
                 <FontAwesomeIcon
                   icon={faGithub}
@@ -109,15 +115,16 @@ function Projects() {
                 <span className="ml-3 text-white">Github</span>
               </button>
             </a>
-
-            <button className="ml-5 p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
-              <FontAwesomeIcon
-                icon={faLink}
-                size="xl"
-                style={{ color: "#ffffff" }}
-              />
-              <span className="ml-3 text-white">Live Demo</span>
-            </button>
+            <a href="https://jkproperties.onrender.com">
+              <button className="ml-5 p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
+                <FontAwesomeIcon
+                  icon={faLink}
+                  size="xl"
+                  style={{ color: "#ffffff" }}
+                />
+                <span className="ml-3 text-white">Live Demo</span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
