@@ -33,7 +33,7 @@ function Hero() {
               repeat={Infinity}
             />
           </div>
-          <div className="my-6 flex gap-4  items-center  ">
+          <div className="my-6 flex gap-4  items-center  justify-center md:justify-normal">
             <a href="" target="_blank">
               {" "}
               <FontAwesomeIcon
