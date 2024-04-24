@@ -57,7 +57,7 @@ function Projects() {
               </button>
             </a>
 
-            <a href="https://github.com/JK-mern/mern-AlgoXpert">
+            <a href="https://mern-algo-xpert.vercel.app/">
               {" "}
               <button className="ml-5 p-3 bg-sky-900 rounded-lg hover:bg-sky-600">
                 <FontAwesomeIcon
